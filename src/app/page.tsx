@@ -2,6 +2,8 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
+  const test: string = "test";
+  console.log(test);
   return (
     <div className={styles.page}>
       <main className={styles.main}>
@@ -9,7 +11,7 @@ export default function Home() {
           className={styles.logo}
           src="/next.svg"
           alt="Next.js logo"
-          width={180}
+          width={182}
           height={38}
           priority
         />
