@@ -2,8 +2,6 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
-  const test: string = "test";
-  console.log(test);
   return (
     <div className={styles.page}>
       <main className={styles.main}>
@@ -36,7 +34,6 @@ export default function Home() {
               width={20}
               height={20}
             />
-            Deploy now
           </a>
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
