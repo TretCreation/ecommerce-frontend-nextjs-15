@@ -36,6 +36,13 @@ export const satoshiRegular = localFont({
   style: "normal",
   variable: "--font-satoshi-regular"
 })
+// TODO: Add satoshi 500 and change font in topbanner.
+export const satoshiRegular = localFont({
+  src: "../../public/fonts/Satoshi-Regular.woff2",
+  weight: "400",
+  style: "normal",
+  variable: "--font-satoshi-regular"
+})
 
 export const satoshiBold = localFont({
   src: "../../public/fonts/Satoshi-Bold.woff2",

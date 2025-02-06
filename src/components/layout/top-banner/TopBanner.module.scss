@@ -1,9 +1,13 @@
-.text {
-  font-family: var(--font-integral-regular), sans-serif;
-  font-size: 1rem;
+.top-banner {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
 
-  .link {
-    font-size: 4rem;
+  .banner-text {
+    font-size: 14px;
     font-family: var(--font-satoshi-regular), sans-serif;
+
+    .banner-link {
+    }
   }
 }
