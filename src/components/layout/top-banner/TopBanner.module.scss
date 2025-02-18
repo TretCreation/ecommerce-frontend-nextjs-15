@@ -1,13 +1,18 @@
 .top-banner {
+  display: flex;
   background-color: #000;
   color: #fff;
-  text-align: center;
+  height: 38px;
+  align-content: center;
+  align-items: center;
+  font-size: 14px;
 
   .banner-text {
-    font-size: 14px;
     font-family: var(--font-satoshi-regular), sans-serif;
 
     .banner-link {
+      font-family: var(--font-satoshi-medium);
+      text-decoration: underline;
     }
   }
 }

@@ -7,7 +7,7 @@ const TopBanner = () => {
     <div className={styles["top-banner"]}>
       <p className={styles["banner-text"]}>
         Sign up and get 20% off to your first order.{" "}
-        <Link href={"/"} className={styles.link}>
+        <Link href={"/"} className={styles["banner-link"]}>
           Sign Up Now
         </Link>
       </p>
