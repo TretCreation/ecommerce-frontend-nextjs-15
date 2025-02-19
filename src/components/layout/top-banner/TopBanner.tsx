@@ -1,6 +1,7 @@
 import React from "react"
 import styles from "./TopBanner.module.scss"
 import Link from "next/link"
+import Cross from "../../../../public/icons/cross.svg"
 
 const TopBanner = () => {
   return (
@@ -11,6 +12,7 @@ const TopBanner = () => {
           Sign Up Now
         </Link>
       </p>
+      <Cross className={styles.icon} />
     </div>
   )
 }
