@@ -4,7 +4,7 @@ import TopBanner from "@/components/layout/top-banner/TopBanner"
 
 export default function Home() {
   return (
-    <div className={styles.page}>
+    <div className={styles.container}>
       <TopBanner />
       <Header />
     </div>

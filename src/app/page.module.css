@@ -1,5 +1,6 @@
-.contttttt {
+.container {
   max-width: 1440px;
+  padding: 0 100px;
   margin: 0 auto;
 }
 
