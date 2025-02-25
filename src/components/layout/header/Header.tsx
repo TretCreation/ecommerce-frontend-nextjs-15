@@ -6,11 +6,9 @@ import DownArrow from "@/public/icons/down-arrow.svg"
 const Header = () => {
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>
-        <p></p>
-      </div>
+      <h1 className={styles.logo}>shop.tret</h1>
       <nav className={styles.nav}>
-        <Link href={"/"}>
+        <Link href={"/"} className={styles.link}>
           Shop
           <DownArrow />
         </Link>
