@@ -16,7 +16,7 @@ const satoshiFont = localFont({
     { path: "../../public/fonts/Satoshi-Medium.woff2", weight: "500", style: "normal" },
     { path: "../../public/fonts/Satoshi-Bold.woff2", weight: "700", style: "normal" }
   ],
-  variable: "--font-statoshi"
+  variable: "--font-satoshi"
 })
 
 export const metadata: Metadata = {
