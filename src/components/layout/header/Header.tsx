@@ -2,6 +2,9 @@ import React from "react"
 import styles from "./Header.module.scss"
 import Link from "next/link"
 import DownArrow from "@/public/icons/down-arrow.svg"
+import Cart from "@/public/icons/cart.svg"
+import Account from "@/public/icons/account.svg"
+import SearchBox from "@/components/ui/searchbox/SearchBox"
 
 const Header = () => {
   return (
@@ -16,6 +19,11 @@ const Header = () => {
         <Link href={"/"}>New Arrivals</Link>
         <Link href={"/"}>Brands</Link>
       </nav>
+      <SearchBox />
+      <div className={styles.icons}>
+        <Cart />
+        <Account />
+      </div>
     </header>
   )
 }
