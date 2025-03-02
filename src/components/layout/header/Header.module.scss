@@ -1,20 +1,22 @@
 .header {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
-  flex-direction: row;
-  padding: 24px;
+  justify-content: center;
+  padding: 24px 100px;
   gap: 40px;
 
   .logo {
     font-family: var(--font-integralcf), sans-serif;
-    font-weight: 700;
-    font-size: 32px;
+    font-weight: 400;
+    font-size: 28px;
   }
 
   .nav {
     display: flex;
-    margin: 0 40px;
     gap: 24px;
 
     .link {

@@ -9,7 +9,7 @@ import SearchBox from "@/components/ui/searchbox/SearchBox"
 const Header = () => {
   return (
     <header className={styles.header}>
-      <h1 className={styles.logo}>shop.tret</h1>
+      <h1 className={styles.logo}>shop.tr</h1>
       <nav className={styles.nav}>
         <Link href={"/"} className={styles.link}>
           Shop

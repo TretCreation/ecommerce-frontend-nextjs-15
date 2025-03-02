@@ -1,6 +1,8 @@
 import type { Metadata } from "next"
 import localFont from "next/font/local"
 import "./globals.css"
+import TopBanner from "@/components/layout/top-banner/TopBanner"
+import Header from "@/components/layout/header/Header"
 
 const integralCFFont = localFont({
   src: [
@@ -31,7 +33,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${integralCFFont.variable} ${satoshiFont.variable}`}>{children}</body>
+      <body className={`${integralCFFont.variable} ${satoshiFont.variable}`}>
+        <TopBanner />
+        <Header />
+        {children}
+      </body>
     </html>
   )
 }
