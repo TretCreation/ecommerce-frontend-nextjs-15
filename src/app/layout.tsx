@@ -22,8 +22,8 @@ const satoshiFont = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "Tret.shop",
-  description: "Tret.shop"
+  title: "SHOP.TR | Created by Tretyakov Volodymyr",
+  description: "SHOP.TR :3"
 }
 
 export default function RootLayout({
