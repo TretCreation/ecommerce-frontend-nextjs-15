@@ -5,8 +5,8 @@ import FindIcon from "@/public/icons/find.svg"
 const SearchBox = () => {
   return (
     <div className={styles.searchbox}>
-      <input type='text' placeholder='Search for products...' className={styles.input} />
       <FindIcon className={styles.icon} />
+      <input type='text' placeholder='Search for products...' className={styles.input} />
     </div>
   )
 }
