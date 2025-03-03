@@ -36,7 +36,7 @@ export default function RootLayout({
       <body className={`${integralCFFont.variable} ${satoshiFont.variable}`}>
         <TopBanner />
         <Header />
-        {children}
+        <main className='container'>{children}</main>
       </body>
     </html>
   )
