@@ -1,19 +1,16 @@
-.searchbox {
+.searchbox-container {
   display: flex;
+  width: max-content;
   align-items: center;
   background: #f0f0f0;
-  width: 607px;
-  height: 48px;
   border-radius: 62px;
+  width: 100%;
 
-  .input {
+  .searchbox {
     width: 540px;
     outline: none;
     background: transparent;
     border: none;
-    font-family: var(--font-satoshi);
-    font-weight: 400;
-    font-size: 16px;
     margin-left: 12px;
     color: #000;
   }

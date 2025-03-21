@@ -7,6 +7,8 @@ import ZaraIcon from "@/public/icons/zara.svg"
 import GucciIcon from "@/public/icons/gucci.svg"
 import PradaIcon from "@/public/icons/prada.svg"
 import CalvinKleinIcon from "@/public/icons/calvin-klein.svg"
+import DiamondIcon from "@/public/icons/diamond.svg"
+import DiamondSmallIcon from "@/public/icons/diamond-small.svg"
 
 const HeroSection = () => {
   return (
@@ -19,6 +21,8 @@ const HeroSection = () => {
       <Button appearance='primary' size='medium'>
         Shop Now
       </Button>
+      <DiamondIcon />
+      <DiamondSmallIcon />
       <div className={styles["hero__stats"]}>
         <div className={styles.stat}>
           <div className={styles.number}>200+</div>

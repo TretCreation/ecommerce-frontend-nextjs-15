@@ -6,7 +6,7 @@ import Cross from "@/public/icons/cross.svg"
 const TopBanner = () => {
   return (
     <div className={styles["top-banner"]}>
-      <p className={styles["banner-text"]}>
+      <p>
         Sign up and get 20% off to your first order.{" "}
         <Link href={"/"} className={styles["banner-link"]}>
           Sign Up Now

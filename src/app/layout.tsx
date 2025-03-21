@@ -32,8 +32,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang='en'>
-      <body className={`${integralCFFont.variable} ${satoshiFont.variable}`}>
+    <html lang='en' className={`${integralCFFont.variable} ${satoshiFont.variable}`}>
+      <body>
         <TopBanner />
         <Header />
         <main className='container'>{children}</main>
