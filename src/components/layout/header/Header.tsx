@@ -4,7 +4,7 @@ import Link from "next/link"
 import DownArrow from "@/public/icons/down-arrow.svg"
 import Cart from "@/public/icons/cart.svg"
 import Account from "@/public/icons/account.svg"
-import SearchBox from "@/components/ui/searchbox/SearchBox"
+import SearchBox from "@/components/common/searchbox/SearchBox"
 
 const Header = () => {
   return (
