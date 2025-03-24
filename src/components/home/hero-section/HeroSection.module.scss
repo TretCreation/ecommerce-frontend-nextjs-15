@@ -1,4 +1,15 @@
 .hero {
+  position: relative;
+  width: 100%;
+
+  &__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 50%;
+  }
+
   &__stats {
     .stat {
       .number {
@@ -7,6 +18,18 @@
       }
     }
   }
+
+  h2 {
+    /* position: absolute; */
+    /* width: 577px; */
+    /* height: 173px; */
+    font-size: 64px;
+  }
 }
+
+.diamond {
+}
+
 .brands {
+  background: black;
 }

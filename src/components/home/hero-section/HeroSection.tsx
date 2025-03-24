@@ -13,30 +13,43 @@ import DiamondSmallIcon from "@/public/icons/diamond-small.svg"
 const HeroSection = () => {
   return (
     <section className={styles.hero}>
-      <h2>FIND CLOTHES THAT MATCHES YOUR STYLE</h2>
-      <p>
-        Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater
-        to your sense of style.
-      </p>
-      <Button appearance='primary' size='medium'>
-        Shop Now
-      </Button>
-      <DiamondIcon />
-      <DiamondSmallIcon />
-      <div className={styles["hero__stats"]}>
-        <div className={styles.stat}>
-          <div className={styles.number}>200+</div>
-          <div className={styles.label}>International Brands</div>
+      <Image
+        alt='hero-image'
+        src='/images/hero.png'
+        width={1440}
+        height={663}
+        objectFit='cover'
+        objectPosition='center'
+        priority={true}
+      />
+      <div className={styles.hero__content}>
+        <div>
+          <h2>FIND CLOTHES THAT MATCHES YOUR STYLE</h2>
+          <p>
+            Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and
+            cater to your sense of style.
+          </p>
+          <Button appearance='primary' size='medium'>
+            Shop Now
+          </Button>
         </div>
-        <div className={styles.stat}>
-          <div className={styles.number}>2,000+</div>
-          <div className={styles.label}>High-Quality Products</div>
-        </div>
-        <div className={styles.stat}>
-          <div className={styles.number}>30,000+</div>
-          <div className={styles.label}>Happy Customers</div>
+        <div className={styles.hero__stats}>
+          <div className={styles.stat}>
+            <div className={styles.number}>200+</div>
+            <div className={styles.label}>International Brands</div>
+          </div>
+          <div className={styles.stat}>
+            <div className={styles.number}>2,000+</div>
+            <div className={styles.label}>High-Quality Products</div>
+          </div>
+          <div className={styles.stat}>
+            <div className={styles.number}>30,000+</div>
+            <div className={styles.label}>Happy Customers</div>
+          </div>
         </div>
       </div>
+      <DiamondIcon className={styles.diamond} />
+      <DiamondSmallIcon />
       <div className={styles.brands}>
         <VersaceIcon />
         <ZaraIcon />
@@ -44,7 +57,6 @@ const HeroSection = () => {
         <PradaIcon />
         <CalvinKleinIcon />
       </div>
-      <Image alt='' src='/images/hero.png' width={1440} height={663} />
     </section>
   )
 }
