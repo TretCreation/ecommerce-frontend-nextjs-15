@@ -1,13 +1,12 @@
 .searchbox-container {
   display: flex;
-  width: max-content;
   align-items: center;
   background: #f0f0f0;
   border-radius: 62px;
   width: 100%;
+  max-width: 610px;
 
   .searchbox {
-    width: 540px;
     outline: none;
     background: transparent;
     border: none;

@@ -1,16 +1,24 @@
 .header {
   width: 100%;
   max-width: 1440px;
-  height: 48px;
   margin: 0 auto;
   display: flex;
-  align-items: center;
   justify-content: center;
   padding: 24px 100px;
   gap: 40px;
+  align-items: stretch;
+  /* ??? Why does this only work when min-height > 84px ??? */
+  min-height: 96px;
+
+  .logo,
+  .nav,
+  .icons,
+  .link {
+    display: flex;
+    align-items: center;
+  }
 
   .logo {
-    font-family: var(--font-integralcf), sans-serif;
     font-weight: 400;
     font-size: 28px;
   }
@@ -21,14 +29,11 @@
 
     .link {
       display: flex;
-      align-items: center;
       gap: 4px;
     }
 
     a {
       font-size: 16px;
-    }
-    .searchbox {
     }
   }
 
