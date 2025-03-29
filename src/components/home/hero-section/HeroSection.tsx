@@ -13,13 +13,7 @@ import DiamondSmallIcon from "@/public/icons/diamond-small.svg"
 const HeroSection = () => {
   return (
     <section className={styles.hero}>
-      <Image
-        alt='hero-image'
-        src='/images/hero.png'
-        width={1440}
-        height={663}
-        unoptimized
-      />
+      <Image alt='hero-image' src='/images/hero.png' width={1440} height={663} unoptimized />
       <div className={styles.hero__content}>
         <div>
           <h2>FIND CLOTHES THAT MATCHES YOUR STYLE</h2>
