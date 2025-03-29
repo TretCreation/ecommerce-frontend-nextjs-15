@@ -18,9 +18,7 @@ const HeroSection = () => {
         src='/images/hero.png'
         width={1440}
         height={663}
-        objectFit='cover'
-        objectPosition='center'
-        priority={true}
+        unoptimized
       />
       <div className={styles.hero__content}>
         <div>
@@ -38,18 +36,22 @@ const HeroSection = () => {
             <div className={styles.number}>200+</div>
             <div className={styles.label}>International Brands</div>
           </div>
+          <hr />
           <div className={styles.stat}>
             <div className={styles.number}>2,000+</div>
             <div className={styles.label}>High-Quality Products</div>
           </div>
+          <hr />
           <div className={styles.stat}>
             <div className={styles.number}>30,000+</div>
             <div className={styles.label}>Happy Customers</div>
           </div>
         </div>
       </div>
-      <DiamondIcon className={styles.diamond} />
-      <DiamondSmallIcon />
+      <div className={styles.diamond}>
+        <DiamondIcon className={styles.diamond__regular} />
+        <DiamondSmallIcon className={styles.diamond__small} />
+      </div>
       <div className={styles.brands}>
         <VersaceIcon />
         <ZaraIcon />
