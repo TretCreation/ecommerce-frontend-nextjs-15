@@ -3,7 +3,7 @@ import React from "react"
 import styles from "./Button.module.scss"
 import { IButtonProps } from "./Button.props"
 
-const Button = ({ appearance, size, children, className, ...props }: IButtonProps): React.JSX.Element => (
+export const Button = ({ appearance, size, children, className, ...props }: IButtonProps): React.JSX.Element => (
   <button
     className={cn(className, styles.button, {
       [styles.primary]: appearance === "primary",
@@ -16,4 +16,3 @@ const Button = ({ appearance, size, children, className, ...props }: IButtonProp
     {children}
   </button>
 )
-export default Button

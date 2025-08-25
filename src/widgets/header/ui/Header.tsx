@@ -4,9 +4,9 @@ import Link from "next/link"
 import DownArrow from "@/public/icons/down-arrow.svg"
 import Cart from "@/public/icons/cart.svg"
 import Account from "@/public/icons/account.svg"
-import SearchBox from "@/components/common/searchbox/SearchBox"
+import { SearchBox } from "@/widgets/search-box"
 
-const Header = () => {
+export const Header = () => {
   return (
     <header className={styles.header}>
       <h1 className={styles.logo}>shop.tr</h1>
@@ -28,4 +28,3 @@ const Header = () => {
   )
 }
 
-export default Header

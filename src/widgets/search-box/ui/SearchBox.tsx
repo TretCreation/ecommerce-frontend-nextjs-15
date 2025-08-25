@@ -2,7 +2,7 @@ import React from "react"
 import styles from "./SearchBox.module.scss"
 import FindIcon from "@/public/icons/find.svg"
 
-const SearchBox = () => {
+export const SearchBox = () => {
   return (
     <div className={styles["searchbox-container"]}>
       <FindIcon className={styles.icon} />
@@ -11,4 +11,3 @@ const SearchBox = () => {
   )
 }
 
-export default SearchBox

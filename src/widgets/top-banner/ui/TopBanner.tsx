@@ -3,7 +3,7 @@ import styles from "./TopBanner.module.scss"
 import Link from "next/link"
 import Cross from "@/public/icons/cross.svg"
 
-const TopBanner = () => {
+export const TopBanner = () => {
   return (
     <div className={styles["top-banner"]}>
       <p>
@@ -16,5 +16,3 @@ const TopBanner = () => {
     </div>
   )
 }
-
-export default TopBanner

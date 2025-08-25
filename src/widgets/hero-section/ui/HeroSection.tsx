@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./HeroSection.module.scss"
 import Image from "next/image"
-import Button from "@/components/ui/button/Button"
+import { Button } from "@/shared/ui/button"
 import VersaceIcon from "@/public/icons/versace.svg"
 import ZaraIcon from "@/public/icons/zara.svg"
 import GucciIcon from "@/public/icons/gucci.svg"
@@ -10,7 +10,7 @@ import CalvinKleinIcon from "@/public/icons/calvin-klein.svg"
 import DiamondIcon from "@/public/icons/diamond.svg"
 import DiamondSmallIcon from "@/public/icons/diamond-small.svg"
 
-const HeroSection = () => {
+export const HeroSection = () => {
   return (
     <section className={styles.hero}>
       <Image alt='hero-image' src='/images/hero.png' width={1440} height={663} unoptimized />
@@ -57,4 +57,3 @@ const HeroSection = () => {
   )
 }
 
-export default HeroSection
