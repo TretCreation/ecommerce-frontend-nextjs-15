@@ -1,14 +1,16 @@
-import React from "react"
-import styles from "./HeroSection.module.scss"
 import Image from "next/image"
-import { Button } from "@/shared/ui/button"
-import VersaceIcon from "@/public/icons/versace.svg"
-import ZaraIcon from "@/public/icons/zara.svg"
+import React from "react"
+
+import CalvinKleinIcon from "@/public/icons/calvin-klein.svg"
+import DiamondSmallIcon from "@/public/icons/diamond-small.svg"
+import DiamondIcon from "@/public/icons/diamond.svg"
 import GucciIcon from "@/public/icons/gucci.svg"
 import PradaIcon from "@/public/icons/prada.svg"
-import CalvinKleinIcon from "@/public/icons/calvin-klein.svg"
-import DiamondIcon from "@/public/icons/diamond.svg"
-import DiamondSmallIcon from "@/public/icons/diamond-small.svg"
+import VersaceIcon from "@/public/icons/versace.svg"
+import ZaraIcon from "@/public/icons/zara.svg"
+import { Button } from "@/shared/ui/button"
+
+import styles from "./HeroSection.module.scss"
 
 export const HeroSection = () => {
   return (

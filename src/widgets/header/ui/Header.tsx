@@ -1,10 +1,12 @@
-import React from "react"
-import styles from "./Header.module.scss"
 import Link from "next/link"
-import DownArrow from "@/public/icons/down-arrow.svg"
-import Cart from "@/public/icons/cart.svg"
+import React from "react"
+
 import Account from "@/public/icons/account.svg"
+import Cart from "@/public/icons/cart.svg"
+import DownArrow from "@/public/icons/down-arrow.svg"
 import { SearchBox } from "@/widgets/search-box"
+
+import styles from "./Header.module.scss"
 
 export const Header = () => {
   return (

@@ -1,6 +1,8 @@
 import React from "react"
-import styles from "./ProductSection.module.scss"
+
 import { Button } from "@/shared/ui/button"
+
+import styles from "./ProductSection.module.scss"
 
 type Props = {
   title: string

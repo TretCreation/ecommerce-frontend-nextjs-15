@@ -1,8 +1,9 @@
 import type { Metadata } from "next"
 import localFont from "next/font/local"
+
 import "./globals.css"
-import { TopBanner } from "@/widgets/top-banner"
 import { Header } from "@/widgets/header"
+import { TopBanner } from "@/widgets/top-banner"
 
 const integralCFFont = localFont({
   src: [

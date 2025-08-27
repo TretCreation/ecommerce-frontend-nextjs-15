@@ -1,6 +1,8 @@
 import React from "react"
-import styles from "./SearchBox.module.scss"
+
 import FindIcon from "@/public/icons/find.svg"
+
+import styles from "./SearchBox.module.scss"
 
 export const SearchBox = () => {
   return (
