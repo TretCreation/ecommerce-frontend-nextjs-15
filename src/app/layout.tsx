@@ -36,7 +36,7 @@ export default function RootLayout({
       <body>
         <TopBanner />
         <Header />
-        <main className='container'>{children}</main>
+        {children}
       </body>
     </html>
   )
